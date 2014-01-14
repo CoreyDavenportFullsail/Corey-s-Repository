@@ -10,3 +10,4 @@ var sparkysAge= 4;
 var ageInDogYears= sparkysAge*7;
 
 console.log(ageInDogYears);
+
