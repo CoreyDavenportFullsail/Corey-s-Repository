@@ -8,3 +8,6 @@ var discountPercent=.20;
 var item="Sweater";
 var salesTax=.06;
 
+//these are the givens
+
+var discountedPrice= originalPrice-(originalPrice*discountPercent);
