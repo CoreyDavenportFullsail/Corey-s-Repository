@@ -12,3 +12,6 @@ var salesTax=.06;
 
 var discountedPrice= originalPrice-(originalPrice*discountPercent);
 var finalPrice=(originalPrice*salesTax)+discountedPrice;
+
+console.log("Your" + " " + item + " " + "was originally $" + originalPrice + ", but after 20% discount, it is now $"
+             + discountedPrice + " " + "without tax, and $" + finalPrice + " " + "with tax.");
