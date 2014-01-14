@@ -5,3 +5,4 @@
 //average amount of $ spent.
 
 var amountSpent= [234,189,264,203,212];
+var total= amountSpent[0] + amountSpent[1] + amountSpent[2] + amountSpent[3] + amountSpent[4];
