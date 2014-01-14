@@ -11,3 +11,4 @@ var salesTax=.06;
 //these are the givens
 
 var discountedPrice= originalPrice-(originalPrice*discountPercent);
+var finalPrice=(originalPrice*salesTax)+discountedPrice;
