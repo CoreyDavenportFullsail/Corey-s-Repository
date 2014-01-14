@@ -4,3 +4,4 @@
 //Purpose of this program is to display price of discounted item, before and after sales tax
 
 var originalPrice= 100;
+var discountPercent=.20;
