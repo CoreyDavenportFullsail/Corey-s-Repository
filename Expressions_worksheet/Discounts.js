@@ -6,3 +6,5 @@
 var originalPrice= 100;
 var discountPercent=.20;
 var item="Sweater";
+var salesTax=.06;
+
