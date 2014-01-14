@@ -9,5 +9,6 @@
 var sparkysAge= 4;
 var ageInDogYears= sparkysAge*7;
 
-console.log(ageInDogYears);
+console.log("Sparky is" + " " + sparkysAge + " " + "in dog years, which is" + " " + 
+             ageInDogYears + " " + "in dog years");
 
