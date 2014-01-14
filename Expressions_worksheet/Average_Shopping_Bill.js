@@ -8,3 +8,5 @@ var amountSpent= [234,189,264,203,212];
 var total= amountSpent[0] + amountSpent[1] + amountSpent[2] + amountSpent[3] + amountSpent[4];
 var average= total/5;
 
+console.log("You have spent a total of $" + total + " " + "on groceries over 5 weeks. that is an average of $" + average + " " + 
+"per week.");
