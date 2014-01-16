@@ -8,4 +8,6 @@ var unit=prompt("Type 'C' if Celsius, or 'F' for Farhenheit.");
 
 if(unit === "F"){
     alert((temp-32)/1.8 + " degrees Celsius")
+}else if (unit === "C"){
+    alert((temp * 1.8)+32 + " degrees Farhenheit")
 }
