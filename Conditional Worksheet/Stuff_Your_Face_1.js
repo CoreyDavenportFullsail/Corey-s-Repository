@@ -9,4 +9,6 @@ var weightRequirement= 250;
 
 if(competitorWeight >= weightRequirement){
     console.log("The competitor qualifies for the heavyweight division.");
+}else{
+    console.log("The competitor needs to gain some weight!");
 }
