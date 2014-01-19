@@ -8,3 +8,6 @@
 
 var b=prompt("What is the measurement of the base?");
 var h=prompt("What is the measurement of the height?");
+var area= 1/2*b*h;
+
+
