@@ -27,3 +27,4 @@ alert("The perimeter of the triangle is "+perimeter);
 alert("Class Average Calculator");
 var one=prompt("Enter 1st grade");
 var two=prompt("Enter 2nd grade or press f to finish");
+var three=prompt("Enter 3rd grade or press f to finish");
