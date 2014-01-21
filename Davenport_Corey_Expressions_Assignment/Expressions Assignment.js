@@ -32,3 +32,4 @@ var four=prompt("Enter 4th grade or press f to finish");
 var five=prompt("Enter 5th grade or press f to finish");
 var six=prompt("Enter 6th grade or press f to finish");
 var seven=prompt("Enter 7th grade or press f to finish");
+var eight=prompt("Enter 8th grade or press f to finish");
