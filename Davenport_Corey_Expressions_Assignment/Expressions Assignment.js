@@ -18,3 +18,9 @@ alert("The perimeter of the triangle is "+perimeter);
 
 
 //Industry
+//"Average Grade of Class""
+    //This program is intended for use by teachers. Often teachers are interested in knowing the average grade a
+    //particular class made on a test or quiz, and this calculator will allow them to enter in figures and output the
+    //class average.
+
+
