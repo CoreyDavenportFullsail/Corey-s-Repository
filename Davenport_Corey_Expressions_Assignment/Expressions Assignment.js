@@ -24,3 +24,4 @@ alert("The perimeter of the triangle is "+perimeter);
     //class average.
 
 
+alert("Class Average Calculator");
