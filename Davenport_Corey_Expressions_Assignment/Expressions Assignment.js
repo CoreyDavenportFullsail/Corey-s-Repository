@@ -37,3 +37,4 @@ var nine=prompt("Enter 8th grade or press f to finish");
 var ten=prompt("Enter 10th grade or press f to finish");
 var average=((parseFloat(one)+parseFloat(two)+parseFloat(three)+parseFloat(four)+parseFloat(five)+
     parseFloat(six)+parseFloat(seven)+parseFloat(eight)+parseFloat(nine)+parseFloat(ten))/10);
+alert("Finished?");
