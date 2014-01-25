@@ -26,15 +26,15 @@ alert("The perimeter of the triangle is "+perimeter);
 
 alert("Class Average Calculator");
 var one=prompt("Enter 1st grade");
-var two=prompt("Enter 2nd grade or press f to finish");
-var three=prompt("Enter 3rd grade or press f to finish");
-var four=prompt("Enter 4th grade or press f to finish");
-var five=prompt("Enter 5th grade or press f to finish");
-var six=prompt("Enter 6th grade or press f to finish");
-var seven=prompt("Enter 7th grade or press f to finish");
-var eight=prompt("Enter 8th grade or press f to finish");
-var nine=prompt("Enter 8th grade or press f to finish");
-var ten=prompt("Enter 10th grade or press f to finish");
+var two=prompt("Enter 2nd grade");
+var three=prompt("Enter 3rd grade");
+var four=prompt("Enter 4th grade");
+var five=prompt("Enter 5th grade");
+var six=prompt("Enter 6th grade");
+var seven=prompt("Enter 7th grade");
+var eight=prompt("Enter 8th grade");
+var nine=prompt("Enter 8th grade");
+var ten=prompt("Enter 10th grade");
 var average=((parseFloat(one)+parseFloat(two)+parseFloat(three)+parseFloat(four)+parseFloat(five)+
     parseFloat(six)+parseFloat(seven)+parseFloat(eight)+parseFloat(nine)+parseFloat(ten))/10);
 alert("Finished?");
@@ -49,6 +49,6 @@ var peopleAtParty=prompt("How many people are going to be in attendance?");
 var cakesOrdered=prompt("How many cakes?");
 var slicesOfCake= parseInt(cakesOrdered)*8;
 var slicesPerPerson= parseInt(slicesOfCake)/parseInt(peopleAtParty);
-var slicesForCorey=parseInt(slicesPerPerson)*1;
-alert("You ordered "+ cakesOrdered+", which should be "+slicesPerPerson+". However, with corey present, you will need" +
+var slicesForCorey=parseInt(slicesPerPerson);
+alert("You ordered "+ cakesOrdered+", which should be "+slicesPerPerson+" per person. However, with corey present, you will need" +
     "give him "+slicesForCorey+"slices.");
