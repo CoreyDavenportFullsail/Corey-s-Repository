@@ -50,3 +50,5 @@ var cakesOrdered=prompt("How many cakes?");
 var slicesOfCake= parseInt(cakesOrdered)*8;
 var slicesPerPerson= parseInt(slicesOfCake)/parseInt(peopleAtParty);
 var slicesForCorey=parseInt(slicesPerPerson)*1;
+alert("You ordered "+ cakesOrdered+", which should be "+slicesPerPerson+". However, with corey present, you will need" +
+    "give him "+slicesForCorey+"slices.");
