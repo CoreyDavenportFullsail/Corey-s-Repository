@@ -49,6 +49,7 @@ var peopleAtParty=prompt("How many people are going to be in attendance?");
 var cakesOrdered=prompt("How many cakes?");
 var slicesOfCake= parseInt(cakesOrdered)*8;
 var slicesPerPerson= parseFloat(slicesOfCake)/parseFloat(peopleAtParty);
+var slicesPerPerson2=parseFloat(slicesPerPerson);
 var slicesForCorey=parseInt(slicesOfCake);
-alert("You ordered "+ cakesOrdered+", so there will be"+slicesOfCake+", which should be "+slicesPerPerson+" per person. However, with corey present, you will need" +
+alert("You ordered "+ cakesOrdered+", so there will be "+slicesOfCake+", which should be "+slicesPerPerson2+" per person. However, with corey present, you will need to " +
     "give him "+slicesForCorey+" slices.");
