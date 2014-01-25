@@ -44,3 +44,4 @@ alert("Average is "+average);
 //"How To Divide Up a Cake For A Party To Which Corey Is Invited"
     //This program is intended to inform the user how many slices of cake should be distributed amongst people at a
     //party in which Corey is in attendance.
+alert("Cake Division At Event Corey is Attending");
