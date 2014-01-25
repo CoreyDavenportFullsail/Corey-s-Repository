@@ -46,3 +46,4 @@ alert("Average is "+average);
     //party in which Corey is in attendance.
 alert("Cake Division At Event Corey is Attending");
 var peopleAtParty=prompt("How many people are going to be in attendance?");
+var cakesOrdered=prompt("How many cakes?");
