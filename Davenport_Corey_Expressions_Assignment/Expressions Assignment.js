@@ -39,3 +39,8 @@ var average=((parseFloat(one)+parseFloat(two)+parseFloat(three)+parseFloat(four)
     parseFloat(six)+parseFloat(seven)+parseFloat(eight)+parseFloat(nine)+parseFloat(ten))/10);
 alert("Finished?");
 alert("Average is "+average);
+
+//Wacky
+//"How To Divide Up a Cake For A Party To Which Corey Is Invited"
+    //This program is intended to inform the user how many slices of cake should be distributed amongst people at a
+    //party in which Corey is in attendance.
