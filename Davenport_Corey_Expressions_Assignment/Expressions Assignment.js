@@ -49,3 +49,4 @@ var peopleAtParty=prompt("How many people are going to be in attendance?");
 var cakesOrdered=prompt("How many cakes?");
 var slicesOfCake= parseInt(cakesOrdered)*8;
 var slicesPerPerson= parseInt(slicesOfCake)/parseInt(peopleAtParty);
+var slicesForCorey=parseInt(slicesPerPerson)*1;
