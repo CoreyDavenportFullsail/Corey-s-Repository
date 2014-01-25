@@ -45,3 +45,4 @@ alert("Average is "+average);
     //This program is intended to inform the user how many slices of cake should be distributed amongst people at a
     //party in which Corey is in attendance.
 alert("Cake Division At Event Corey is Attending");
+var peopleAtParty=prompt("How many people are going to be in attendance?");
