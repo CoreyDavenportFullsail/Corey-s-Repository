@@ -33,7 +33,7 @@ var five=prompt("Enter 5th grade");
 var six=prompt("Enter 6th grade");
 var seven=prompt("Enter 7th grade");
 var eight=prompt("Enter 8th grade");
-var nine=prompt("Enter 8th grade");
+var nine=prompt("Enter 9th grade");
 var ten=prompt("Enter 10th grade");
 var average=((parseFloat(one)+parseFloat(two)+parseFloat(three)+parseFloat(four)+parseFloat(five)+
     parseFloat(six)+parseFloat(seven)+parseFloat(eight)+parseFloat(nine)+parseFloat(ten))/10);
@@ -48,7 +48,7 @@ alert("Cake Division At Event Corey is Attending");
 var peopleAtParty=prompt("How many people are going to be in attendance?");
 var cakesOrdered=prompt("How many cakes?");
 var slicesOfCake= parseInt(cakesOrdered)*8;
-var slicesPerPerson= parseInt(slicesOfCake)/parseInt(peopleAtParty);
-var slicesForCorey=parseInt(slicesPerPerson);
+var slicesPerPerson= parseFloat(slicesOfCake)/parseFloat(peopleAtParty);
+var slicesForCorey=parseInt(slicesOfCake);
 alert("You ordered "+ cakesOrdered+", which should be "+slicesPerPerson+" per person. However, with corey present, you will need" +
-    "give him "+slicesForCorey+"slices.");
+    "give him "+slicesForCorey+" slices.");
