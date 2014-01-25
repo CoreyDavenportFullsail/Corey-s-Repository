@@ -47,3 +47,4 @@ alert("Average is "+average);
 alert("Cake Division At Event Corey is Attending");
 var peopleAtParty=prompt("How many people are going to be in attendance?");
 var cakesOrdered=prompt("How many cakes?");
+var slicesOfCake= parseInt(cakesOrdered)*8;
