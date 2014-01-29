@@ -28,7 +28,7 @@ var statesMinWage=prompt("What is the minimum wage (per hour) in your state?");
 var jobOffer=prompt("How much money is being offered for the job?");
 var projectedHoursOfWork=prompt("Give a rough estimate of the amount of time this project will take.");
 
-if(parseInt(jobOffer)<=statesMinWage*projectedHoursOfWork){
+if(parseInt(jobOffer)<=parseInt(statesMinWage)*parseInt(projectedHoursOfWork)){
     alert("For the love of god, DON'T DO IT!");
 }else{
     alert("You're good. Take the job.");
