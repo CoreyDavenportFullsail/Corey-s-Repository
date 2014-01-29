@@ -38,7 +38,7 @@ if(parseInt(jobOffer)<=parseInt(statesMinWage)*parseInt(projectedHoursOfWork)){
 //"Should you hit on them?"
 //This program is intended to help the user find out if he should hit on someone.
 alert("Should you hit on them?");
-
+//This program could save you a lot of embarrassment, friend.
 var theirAttractiveness=prompt("Score the subject on a scale of 1-10 on their attractiveness.");
 var yourAttractiveness=prompt("Score yourself on a scale of 1-10 on your attractiveness...BE HONEST.");
 var theirRelationshipStatus=prompt("What is their relationship status? Answer Single, Taken, or Unsure. CASE SENSITIVE);
@@ -51,5 +51,7 @@ if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelations
     theirRelationshipStatus==="Unsure" && yourRelationshipStatus==="Single" && terribleness==="n" &&
         embarrassingPossessions==="n"){
     alert("Sure go for it. It probably won't hurt.)
+}else if(parseInt(theirAttractiveness)>parseInt(yourAttractiveness)){
+    
 }
 
