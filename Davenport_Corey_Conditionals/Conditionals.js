@@ -47,7 +47,13 @@ var terribleness=prompt("Are you a terrible person who would cheat? Answer y for
 var embarrassingPossessions=prompt("Do you, or have you, ever owned a fedora, samurai sword, or wall scroll? Answer y" +
     " for Yes, or n for No");
 
-if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelationshipStatus==="Single" ||
+
+if(embarrassingPossessions==="y"){
+    alert("No. Just...No.");
+}else if(terribleness==="y"){
+    alert("No.");
+}
+else if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelationshipStatus==="Single" ||
     theirRelationshipStatus==="Unsure" && yourRelationshipStatus==="Single" && terribleness==="n"
         && embarrassingPossessions==="n"){
     alert("Sure go for it. It probably won't hurt.");
