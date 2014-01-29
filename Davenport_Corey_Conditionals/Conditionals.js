@@ -33,3 +33,8 @@ if(parseInt(jobOffer)<=parseInt(statesMinWage)*parseInt(projectedHoursOfWork)){
 }else{
     alert("You're good. Take the job.");
 }
+
+//Wacky
+//"Should you hit on them?"
+//This program is intended to help the user find out if he should hit on someone.
+alert("Should you hit on them?");
