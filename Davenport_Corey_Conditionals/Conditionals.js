@@ -26,3 +26,5 @@ alert("Should you take this freelance work?");
 
 var statesMinWage=prompt("What is the minimum wage (per hour) in your state?");
 var jobOffer=prompt("How much money is being offered for the job?");
+var projectedHoursOfWork=("Give a rough estimate of the amount of time this project will take.");
+
