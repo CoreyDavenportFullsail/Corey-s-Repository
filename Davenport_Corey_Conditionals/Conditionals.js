@@ -16,3 +16,10 @@ if(parseInt(userTemperature)>=70){
 }else{
     alert("Go get a sweater.");
 }
+
+//Industry
+//"Should you take this commissioned, non-hourly based job?"
+//This program is intended to let one know whether or not it is a smart idea to take on a certain job, depending on
+//whether or not the amount offered is above or below minimum wage.
+
+alert("Should you take this freelance work?");
