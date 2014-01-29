@@ -57,8 +57,7 @@ if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelations
     && yourRelationshipStatus==="Single" || yourRelationshipStatus==="Unsure"){
     alert("You really shouldn't. It's going to annoy them.");
 }else if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelationshipStatus==="Single"
-    && yourRelationshipStatus==="Taken" || yourRelationshipStatus==="Unsure" && terribleness==="y"
-    && embarrassingPossessions==="y" || embarrassingPossessions==="n"){
+    && yourRelationshipStatus==="Taken" && terribleness==="y"){
     alert("Don't do it. I know you admitted to being shitty, but come on.");
 }else if(embarrassingPossessions==="y"){
     alert("No. Just...No.");
