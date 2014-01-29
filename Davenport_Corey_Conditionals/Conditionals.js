@@ -23,3 +23,6 @@ if(parseInt(userTemperature)>=70){
 //whether or not the amount offered is above or below minimum wage.
 
 alert("Should you take this freelance work?");
+
+var statesMinWage=prompt("What is the minimum wage (per hour) in your state?");
+
