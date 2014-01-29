@@ -53,5 +53,9 @@ if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelations
     alert("Sure go for it. It probably won't hurt.)
 }else if(parseInt(theirAttractiveness)>parseInt(yourAttractiveness)){
     alert("I would advise against it.");
+}else if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelationshipStatus==="Taken"
+            && yourRelationshipStatus==="Single" || yourRelationshipStatus==="Unsure" && terribleness==="y"
+            || terribleness==="n" && embarrassingPossessions==="y" || embarrassingPossessions==="n"){
+    alert("You really shouldn't. It's going to annoy them.");
 }
 
