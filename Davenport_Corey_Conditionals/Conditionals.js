@@ -49,5 +49,7 @@ var embarrassingPossessions=prompt("Do you, or have you, ever owned a fedora, sa
 
 if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelationshipStatus==="Single" ||
     theirRelationshipStatus==="Unsure" && yourRelationshipStatus==="Single" && terribleness==="n" &&
-        embarrassingPossessions==="n")
+        embarrassingPossessions==="n"){
+    alert("Sure go for it. It probably won't hurt.)
+}
 
