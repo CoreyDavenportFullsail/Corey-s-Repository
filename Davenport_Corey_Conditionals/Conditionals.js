@@ -30,4 +30,6 @@ var projectedHoursOfWork=("Give a rough estimate of the amount of time this proj
 
 if(parseInt(jobOffer)<=statesMinWage*projectedHoursOfWork){
     alert("For the love of god, DON'T DO IT!");
+}else{
+    alert("You're good. Take the job.");
 }
