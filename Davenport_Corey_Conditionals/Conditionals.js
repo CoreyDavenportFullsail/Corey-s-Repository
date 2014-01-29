@@ -63,5 +63,7 @@ if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelations
     alert("Don't do it. I know you admitted to being shitty, but come on.");
 }else if(embarrassingPossessions==="y"){
     alert("No. Just...No.");
+}else if(terribleness==="y"){
+    alert("No.");
 }
 
