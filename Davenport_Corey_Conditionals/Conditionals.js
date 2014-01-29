@@ -54,8 +54,7 @@ if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelations
 }else if(parseInt(theirAttractiveness)>parseInt(yourAttractiveness && terribleness==="n")){
     alert("Eh...You can try, but you better be REALLY funny, or wealthy.");
 }else if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelationshipStatus==="Taken"
-    && yourRelationshipStatus==="Single" || yourRelationshipStatus==="Unsure" && terribleness==="y"|| terribleness==="n"
-    && embarrassingPossessions==="y" || embarrassingPossessions==="n"){
+    && yourRelationshipStatus==="Single" || yourRelationshipStatus==="Unsure"){
     alert("You really shouldn't. It's going to annoy them.");
 }else if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelationshipStatus==="Single"
     && yourRelationshipStatus==="Taken" || yourRelationshipStatus==="Unsure" && terribleness==="y"
