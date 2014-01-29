@@ -51,8 +51,8 @@ if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelations
     theirRelationshipStatus==="Unsure" && yourRelationshipStatus==="Single" && terribleness==="n"
         && embarrassingPossessions==="n"){
     alert("Sure go for it. It probably won't hurt.");
-}else if(parseInt(theirAttractiveness)>parseInt(yourAttractiveness)){
-    alert("I would advise against it.");
+}else if(parseInt(theirAttractiveness)>parseInt(yourAttractiveness && terribleness==="n")){
+    alert("Eh...You can try, but you better be REALLY funny, or wealthy.");
 }else if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelationshipStatus==="Taken"
     && yourRelationshipStatus==="Single" || yourRelationshipStatus==="Unsure" && terribleness==="y"|| terribleness==="n"
     && embarrassingPossessions==="y" || embarrassingPossessions==="n"){
