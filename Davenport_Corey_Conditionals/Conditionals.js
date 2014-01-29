@@ -42,3 +42,5 @@ alert("Should you hit on them?");
 var theirAttractiveness=prompt("Score the subject on a scale of 1-10 on their attractiveness.");
 var yourAttractiveness=prompt("Score yourself on a scale of 1-10 on your attractiveness...BE HONEST.");
 var theirRelationshipStatus=prompt("What is their relationship stauts? Answer Single, Taken, or Unsure. CASE SENSITIVE);
+var yourRelationshipStatus=prompt("What is your relationship status? Answer Single, Taken, or Unsure. CASE SENSITIVE");
+var terribleness=prompt("Are you a terrible person who would cheat? Answer y for Yes, or n for No");
