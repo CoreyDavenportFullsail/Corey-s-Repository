@@ -9,3 +9,4 @@
 alert("Are you going to need a sweater when you go out?");
 
 
+var userTemperature=prompt("What is the temperature?");
