@@ -47,3 +47,7 @@ var terribleness=prompt("Are you a terrible person who would cheat? Answer y for
 var embarrassingPossessions=prompt("Do you, or have you, ever owned a fedora, samurai sword, or wall scroll? Answer y" +
     " for Yes, or n for No");
 
+if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelationshipStatus==="Single" ||
+    theirRelationshipStatus==="Unsure" && yourRelationshipStatus==="Single" && terribleness==="n" &&
+        embarrassingPossessions==="n")
+
