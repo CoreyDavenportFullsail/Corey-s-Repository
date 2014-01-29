@@ -41,21 +41,21 @@ alert("Should you hit on them?");
 //This program could save you a lot of embarrassment, friend.
 var theirAttractiveness=prompt("Score the subject on a scale of 1-10 on their attractiveness.");
 var yourAttractiveness=prompt("Score yourself on a scale of 1-10 on your attractiveness...BE HONEST.");
-var theirRelationshipStatus=prompt("What is their relationship status? Answer Single, Taken, or Unsure. CASE SENSITIVE);
+var theirRelationshipStatus=prompt("What is their relationship status? Answer Single, Taken, or Unsure. CASE SENSITIVE");
 var yourRelationshipStatus=prompt("What is your relationship status? Answer Single, Taken, or Unsure. CASE SENSITIVE");
 var terribleness=prompt("Are you a terrible person who would cheat? Answer y for Yes, or n for No");
 var embarrassingPossessions=prompt("Do you, or have you, ever owned a fedora, samurai sword, or wall scroll? Answer y" +
     " for Yes, or n for No");
 
 if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelationshipStatus==="Single" ||
-    theirRelationshipStatus==="Unsure" && yourRelationshipStatus==="Single" && terribleness==="n" &&
-        embarrassingPossessions==="n"){
-    alert("Sure go for it. It probably won't hurt.)
+    theirRelationshipStatus==="Unsure" && yourRelationshipStatus==="Single" && terribleness==="n"
+        && embarrassingPossessions==="n"){
+    alert("Sure go for it. It probably won't hurt.");
 }else if(parseInt(theirAttractiveness)>parseInt(yourAttractiveness)){
     alert("I would advise against it.");
 }else if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelationshipStatus==="Taken"
-            && yourRelationshipStatus==="Single" || yourRelationshipStatus==="Unsure" && terribleness==="y"
-            || terribleness==="n" && embarrassingPossessions==="y" || embarrassingPossessions==="n"){
+    && yourRelationshipStatus==="Single" || yourRelationshipStatus==="Unsure" && terribleness==="y"|| terribleness==="n"
+    && embarrassingPossessions==="y" || embarrassingPossessions==="n"){
     alert("You really shouldn't. It's going to annoy them.");
 }else if(parseInt(theirAttractiveness)<=parseInt(yourAttractiveness) && theirRelationshipStatus==="Single"
     && yourRelationshipStatus==="Taken" || yourRelationshipStatus==="Unsure" && terribleness==="y"
