@@ -7,5 +7,5 @@
 alert("Where should you go ouy yo eat?");
 
 var money=prompt("How much money do you have?");
-
+var gas=prompt("How much gas do you have? Full, Half, Nearly empty. CASE SENSITIVE!");
 
