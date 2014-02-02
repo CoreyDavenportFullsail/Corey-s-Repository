@@ -6,3 +6,6 @@
 
 alert("Where should you go ouy yo eat?");
 
+var money=prompt("How much money do you have?");
+
+
