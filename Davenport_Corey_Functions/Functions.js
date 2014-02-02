@@ -11,7 +11,15 @@ var gas=prompt("How much gas do you have? Full, Half, Nearly empty. CASE SENSITI
 
 function decision(money,gas){
     if(parseInt(money)>="10.00" && gas==="Full"||gas==="Half"){
-        alert("Go somewhere nice")
+        alert("Go somewhere nice");
     }
+    else if(parseInt(money)>="5.00" && gas==="Full"||gas==="Half"||gas==="Nearly empty"){
+        alert("Just go to Mcdonalds or something.");
+    }
+    else if(parseInt(money)<"5.00" && gas==="Full"||gas==="Half"||gas==="Nearly empty"){
+        alert("Save your money, idiot. Stop eating out so much.");
+    }
+
+    return decision();
 }
 
