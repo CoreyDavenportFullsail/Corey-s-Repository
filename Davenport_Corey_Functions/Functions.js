@@ -10,6 +10,8 @@ var money=prompt("How much money do you have?");
 var gas=prompt("How much gas do you have? Full, Half, Nearly empty. CASE SENSITIVE!");
 
 function decision(money,gas){
-    if(parseInt(money)>="5.00")
+    if(parseInt(money)>="10.00" && gas==="Full"||gas==="Half"){
+        alert("Go somewhere nice")
+    }
 }
 
