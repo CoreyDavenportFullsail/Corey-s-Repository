@@ -20,8 +20,8 @@ function decision(money,gas){
         alert("Save your money, idiot. Stop eating out so much.");
     }
 
-    decision();
 }
+console.log(decision());
 //Industry
 //"First and last name"
 
@@ -30,8 +30,11 @@ alert("First and last name");
 var firstName=prompt("Enter your first name");
 var lastName=prompt("Enter your last name");
 
-firstandlast();
+
 function firstandlast(firstName,lastName){
     return(firstName+""+lastName)
 }
+
+console.log(firstandlast());
 //Wacky
+//
