@@ -26,7 +26,7 @@
       <file leaf-file-name="index_Functions.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_Functions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="7" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="Functions.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="908" selection-end="908" vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="725">
+            <state line="37" column="0" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.76976424" vertical-offset="0" max-vertical-offset="721">
               <folding />
             </state>
           </provider>
@@ -59,7 +59,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="822" />
+    <option name="height" value="818" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -167,7 +167,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="822" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="818" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -208,14 +208,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index_Functions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="7" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="908" selection-end="908" vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="725">
+        <state line="37" column="0" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.76976424" vertical-offset="0" max-vertical-offset="721">
           <folding />
         </state>
       </provider>

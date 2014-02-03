@@ -23,8 +23,15 @@ function decision(money,gas){
     decision();
 }
 //Industry
-//"Perform a certain mathematical operation"
+//"First and last name"
 
-alert("Math Stuff!");
+alert("First and last name");
 
+var firstName=prompt("Enter your first name");
+var lastName=prompt("Enter your last name");
 
+firstandlast();
+function firstandlast(firstName,lastName){
+    return(firstName+""+lastName)
+}
+//Wacky
