@@ -9,30 +9,46 @@ alert("Where should you go out to eat?");
 function decision(a,b){
 
     if(parseInt(a)>="10.00" && b==="Full"||b==="Half"){
-        return alert("Go somewhere nice.");
+        alert("Go somewhere nice.");
     }
     else if(parseInt(a)>="5.00" && parseInt(a)<"10.00" && b==="Full"||b==="Half"||b==="Nearly empty"){
-        return alert("Just go to Mcdonalds or something.");
+        alert("Just go to Mcdonalds or something.");
     }
-    else if(parseInt(money)<"5.00" && gas==="Full"||gas==="Half"||gas==="Nearly empty"){
-        return alert("Save your money, idiot. Stop eating out so much.");
+    else if(parseInt(a)<"5.00" && b==="Full"||b==="Half"||b==="Nearly empty"){
+        alert("Save your money, idiot. Stop eating out so much.");
     }
 
 }
 decision(prompt("How much money do you have?"), prompt("How full is your gas tank? Full, Half, or Nearly empty? CASE SENSITIVE"));
 //Industry
-//"First and last name"
+//"First and last name" This program will simply take in two separate strings and put them together in an alert.
 
 alert("First and last name");
 
-var firstName=prompt("Enter your first name");
-var lastName=prompt("Enter your last name");
 
-
-function firstandlast(firstName,lastName){
-    return(firstName+" "+lastName)
+function firstAndLast(firstName,lastName){
+   return alert(firstName+ " "+lastName);
 }
+firstAndLast(prompt("What is your first name?"), prompt("What is your last name?"));
 
-console.log(firstandlast());
 //Wacky
-//
+//"Basic Calculator" Basically, depending on a user input, this will perform a mathematical operation on 2 numbers
+
+alert("Basic Calculator");
+
+var one=prompt("Enter 1st number");
+var two=prompt("Enter 2nd number");
+
+function calculator(a){
+    if(a==="1"){
+        return alert(one + two);
+    }else if(a==="2"){
+        return alert(one - two);
+    }else if(a==="3"){
+        return alert(one * two);
+    }else if(a==="4"){
+        return alert(one / two);
+    }
+}
+calculator(prompt("Which operation would you like to perform? Enter 1 for addition, 2 for subtraction, 3 for " +
+    "multiplication, or 4 for division"));
