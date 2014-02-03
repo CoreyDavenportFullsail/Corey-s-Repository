@@ -41,13 +41,13 @@ var two=prompt("Enter 2nd number");
 
 function calculator(a){
     if(a==="1"){
-        return alert(one + two);
+         alert(one + two);
     }else if(a==="2"){
-        return alert(one - two);
+         alert(one - two);
     }else if(a==="3"){
-        return alert(one * two);
+         alert(one * two);
     }else if(a==="4"){
-        return alert(one / two);
+         alert(one / two);
     }
 }
 calculator(prompt("Which operation would you like to perform? Enter 1 for addition, 2 for subtraction, 3 for " +
