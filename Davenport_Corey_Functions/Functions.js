@@ -6,22 +6,20 @@
 
 alert("Where should you go out to eat?");
 
-var money=prompt("How much money do you have?");
-var gas=prompt("How much gas do you have? Full, Half, Nearly empty. CASE SENSITIVE!");
+function decision(a,b){
 
-function decision(money,gas){
-    if(parseInt(money)>="10.00" && gas==="Full"||gas==="Half"){
-        alert("Go somewhere nice.");
+    if(parseInt(a)>="10.00" && b==="Full"||b==="Half"){
+        return alert("Go somewhere nice.");
     }
-    else if(parseInt(money)>="5.00" && gas==="Full"||gas==="Half"||gas==="Nearly empty"){
-        alert("Just go to Mcdonalds or something.");
+    else if(parseInt(a)>="5.00" && parseInt(a)<"10.00" && b==="Full"||b==="Half"||b==="Nearly empty"){
+        return alert("Just go to Mcdonalds or something.");
     }
     else if(parseInt(money)<"5.00" && gas==="Full"||gas==="Half"||gas==="Nearly empty"){
-        alert("Save your money, idiot. Stop eating out so much.");
+        return alert("Save your money, idiot. Stop eating out so much.");
     }
 
 }
-console.log(decision());
+decision(prompt("How much money do you have?"), prompt("How full is your gas tank? Full, Half, or Nearly empty? CASE SENSITIVE"));
 //Industry
 //"First and last name"
 
@@ -32,7 +30,7 @@ var lastName=prompt("Enter your last name");
 
 
 function firstandlast(firstName,lastName){
-    return(firstName+""+lastName)
+    return(firstName+" "+lastName)
 }
 
 console.log(firstandlast());
