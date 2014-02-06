@@ -13,5 +13,5 @@ function getAverage(arr){
     }
     return average;
 }
-var avg= getAverage([10,20,30]);
+var avg= getAverage([]);
 console.log(avg);

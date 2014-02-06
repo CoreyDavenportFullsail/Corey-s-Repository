@@ -6,17 +6,6 @@
 var playerOne=["Link",100,40];
 var playerTwo=["Wario",100,40];
 
-//Player names
-var playerOneName="Link";
-var playerTwoName="Wario";
-
-//Player health
-var playerOneHealth=100;
-var playerTwoHealth=100;
-
-//Player damage
-var playerOneDamage=40;
-var playerTwoDamage=40;
 
 var round=1;
 
