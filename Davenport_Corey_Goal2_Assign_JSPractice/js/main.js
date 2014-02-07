@@ -48,12 +48,12 @@
 
 
     function avgNumbers(arr) {
-        var total = 0; //sets total to 0
+        var total = 0;
         for (var i = 0; i < arr.length; i++) {
             total += arr[i];
         }
-        var average = total / arr.length;
-        return average;
+        return total / arr.length;
+
     }
 
     var average = avgNumbers([1, 2, 3, 4, 5]);
@@ -62,10 +62,8 @@
 
     //--------------------------------------------------------
     console.log("2. concat first and last name");
-    function fullName(first,last){
-        var concatName = first+" "+last;
-
-        return concatName;
+    function fullName(first, last) {
+        return first + " " + last;
     }
 
 
@@ -73,30 +71,55 @@
 
     //--------------------------------------------------------
     console.log("3. word count");
-    var ipsum = "this is test text that is being used as input to a function"
+    var ipsum = "this is test text that is being used as input to a function";
 
-    //PUT FUNCTION HERE
+    function wordCount(longString) {
+        var splitString = longString.split(" ");
+        return splitString.length;
+
+
+    }
 
     console.log(wordCount(ipsum));
 
     //--------------------------------------------------------
     console.log("4. sentence char count");
 
-    //PUT FUNCTION HERE
+    function charCount(moreText) {
+        return moreText.length;
+    }
 
     console.log(charCount(ipsum));
 
     //--------------------------------------------------------
     console.log("5. how many vowels in a word");
 
-    //PUT FUNCTION HERE
+    function vowelsInWord(word) {
+        vowelTotal = 0;
+        var brokenWord = word.split("");
+        for (i = 0; i < brokenWord.length; i++) {
+            if (brokenWord[i] === "a" || brokenWord[i] === "e" || brokenWord[i] === "i" || brokenWord[i] === "o"
+                || brokenWord[i] === "u") {
+                vowelTotal += 1
+            }
+        }
+        return vowelTotal;
+    }
 
     console.log(vowelsInWord('JavaScript'));
 
     //--------------------------------------------------------
     console.log("6. find number and create an array of even or odd numbers");
 
-    //PUT FUNCTION HERE
+    function findNum(arrayNum, boolean) {
+        for(var i = 0; i < arrayNum.length; i++){
+            if(boolean === false && arrayNum[i] % 2 == 1){
+                console.log("odd:",arrayNum[i]);
+            }else if(boolean != false && arrayNum[i] % 2 == 0){
+               console.log("even:",arrayNum[i]);
+            }
+        }
+    }
 
     console.log(findNum([31, 22, 4, 67, 83, 6, 5, 4]));
     console.log(findNum([31, 22, 4, 67, 83, 6, 5, 4], false));
