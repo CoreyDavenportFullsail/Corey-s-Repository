@@ -110,16 +110,29 @@
 
     //--------------------------------------------------------
     console.log("6. find number and create an array of even or odd numbers");
+    function findNum(array, boolean){
+        var evenNum = [];
+        var oddNum = [];
 
-    function findNum(arrayNum, boolean) {
-        for(var i = 0; i < arrayNum.length; i++){
-            if(boolean === false && arrayNum[i] % 2 == 1){
-                console.log("odd:",arrayNum[i]);
-            }else if(boolean != false && arrayNum[i] % 2 == 0){
-               console.log("even:",arrayNum[i]);
+        for (i = 0; i < array.length; i++){
+        if(array[i] % 2 === 1 && boolean === false){
+
+                oddNum.push(array[i]);
             }
+        else if (array[i] % 2 === 0 && boolean != false){
+
+            evenNum.push(array[i]);
+        }
+        }
+
+        if(boolean == false){
+            return oddNum;
+        }else{
+            return evenNum;
         }
     }
+
+
 
     console.log(findNum([31, 22, 4, 67, 83, 6, 5, 4]));
     console.log(findNum([31, 22, 4, 67, 83, 6, 5, 4], false));
